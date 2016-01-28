@@ -1,28 +1,24 @@
 # AtlasWithHDP
 
 
-## Pré-requis
-
+## Installation
 
 HortonWorks Sandbox from http://hortonworks.com/hdp/downloads/
 
 
+## Bug
+
+When I create the table in Hive, I don't show them in Atlas UI.
 
 
-## Scénario
+
+## Steps
+
+1. Download the hortonWorks Sandbox ​http://hortonworks.com/hdp/downloads/ and start it.
+1. Configure my conf.sh file
+1. Launch the 1_LoadToHDFS.sh : it should copy a file to HDFS
+1. Launch the 2_CreateTableInHIVE.sh : it should create 2 table in Hive
+1. Go to Atlas UI and type the query "Table" ou "DB".
 
 
-- On part d'un fichier CSV représentant un ensemble de personnes.
-- On charge ce fichier dans Hadoop
-- On créer une table "Externe" dans Hive pour mapper ce fichier
-- On créer une table interne (CTAS) dans Hive qui correspond à la première table
-- On fait des requêtes des Hive
-
-Cela permet de voir :
-- La provenance des données
-- Les audits de Hive
-
-On va rajouter des tags personnalisés sur les colonnes et cela permettra de voir la recherche via les tags.
-
-
-Le scénario est volontairement très simple pour ne pas compliqué inutilement la démonstration.
+With my server, I show nothing.
