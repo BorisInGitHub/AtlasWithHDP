@@ -8,7 +8,7 @@ HortonWorks Sandbox from http://hortonworks.com/hdp/downloads/
 
 ## Bug
 
-When I create the table in Hive, I don't show them in Atlas UI.
+When I create the table in Hive, I don't show the associated metadata in the Atlas UI.
 
 
 
